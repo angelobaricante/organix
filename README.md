@@ -3,7 +3,7 @@
     <picture>
       <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Gteknolohiya/organix/blob/main/logo.svg">
       <source media="(prefers-color-scheme: light)" srcset="https://github.com/Gteknolohiya/organix/blob/main/logo.svg">
-      <img alt="OrganiX" src="https://github.com/Gteknolohiya/organix/blob/main/logo.svg" style="max-width: 100%;">
+      <img alt="OrganiX" src="https://github.com/Gteknolohiya/organix/blob/main/logo.svg" height="70" style="max-width: 100%;">
     </picture>
   </a>
 </p>
