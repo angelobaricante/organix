@@ -14,4 +14,17 @@
 
 ------
 
+## Table of Contents
+* [Why OrganiX?] (##why-organix?)
+How it Contributes to SDG
+Features
+Prerequisites
+Installation and Setup
+Usage
+Customization and Extensibility
+Contributing
+License
+Credits and Acknowledgements
+Contact Information
 
+## Why OrganiX?
