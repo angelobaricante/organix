@@ -11,3 +11,7 @@
 <p align="center">
   A powerful organizer tool designed to help users organize various things in their laptop or pc.
 </p>
+
+------
+
+
