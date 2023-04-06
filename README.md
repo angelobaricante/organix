@@ -15,9 +15,9 @@
 ------
 
 ## Table of Contents
-* [Why OrganiX?](##why-organix)
-* [How it Contributes to SDG](##how-it-contributes-to-sdg)
-* [Features](##features)
+* [Why OrganiX](#why-organix)
+* [How it Contributes to SDG](#how-it-contributes-to-sdg)
+* [Features](#features)
 Prerequisites
 Installation and Setup
 Usage
