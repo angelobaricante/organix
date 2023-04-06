@@ -15,7 +15,7 @@
 ------
 
 ## Table of Contents
-* [Why OrganiX?](##why-organix)
+* [Why OrganiX?](##why-organix?)
 How it Contributes to SDG
 Features
 Prerequisites
