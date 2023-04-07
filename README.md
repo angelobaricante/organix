@@ -36,7 +36,7 @@ We developed OrganiX because we understand the challenges that many students and
 
 ## How it Contributes to SDG
 
-OrganiX contributes to the United Nations' Sustainable Development Goals (SDGs) by promoting both responsible consumption and production patterns (SDG 12) and quality education (SDG 4).
+OrganiX contributes to the United Nations' Sustainable Development Goals (SDGs) by promoting both quality education (SDG 4) and responsible consumption and production patterns (SDG 12).
 
 <p align="center">
   <picture align="center">
