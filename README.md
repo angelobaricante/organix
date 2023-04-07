@@ -18,11 +18,11 @@
 * [Why OrganiX](#why-organix)
 * [How it Contributes to SDG](#how-it-contributes-to-sdg)
 * [Features](#features)
-Prerequisites
-Installation and Setup
-Usage
-Customization and Extensibility
-Contributing
+* [Installation and Setup](#installation-and-setup)
+*[Usage](#usage)
+* Contributing
+Contributors
+
 License
 Credits and Acknowledgements
 Contact Information
@@ -53,12 +53,32 @@ Additionally, By helping users better organize and manage their digital files, O
 ## Features
 OrganiX offers a range of powerful features designed to enhance file organization and management:
 
-1. File Organizer: Automatically organizes files based on their types into predefined or customizable folders, making it easy for users to locate and manage their documents, images, videos, and other file types.
+1. __Advance File Organizer__: Automatically organizes files based on their types into predefined or customizable folders, making it easy for users to locate and manage their documents, images, videos, and other file types.
 
-2. Temporary File Deleter: Scans and removes temporary files, such as cache files, logs, and other one-time-use data, freeing up storage space and improving system performance.
+2. __Temporary File Deleter__: Scans and removes temporary files, such as cache files, logs, and other one-time-use data, freeing up storage space and improving system performance.
 
-3. Automated Backup: Automatically creates backups of user-defined folders and files at scheduled intervals, ensuring that critical data is safe and secure.
+3. __Automated Backup__: Automatically creates backups of user-defined folders and files at scheduled intervals, ensuring that critical data is safe and secure.
 
-4. Automatic Workspace Sanitizer: Detects and addresses clutter, duplicates, and misplaced files, helping users maintain a clean and organized workspace with minimal manual intervention.
+4. __Automatic Workspace Sanitizer__: Detects and addresses clutter, duplicates, and misplaced files, helping users maintain a clean and organized workspace with minimal manual intervention.
 
-5. Voice-controlled File Management: Allows users to control and interact with their file management system using voice commands, streamlining navigation and file organization tasks.
+5. __Voice-controlled File Management__: Allows users to control and interact with their file management system using voice commands, streamlining navigation and file organization tasks.
+  
+## Installation and Setup (coming soon)
+We are currently working on finalizing the OrganiX project. Once the project is complete, we will provide a comprehensive installation and setup guide to help users easily get started with OrganiX. Please stay tuned for updates!
+
+## Usage (coming soon)  
+We are in the process of completing the OrganiX project. Once the project is finalized, we will provide a detailed usage guide to help users effectively utilize OrganiX's features and capabilities. Please stay tuned for updates and thank you for your patience!
+  
+## Creators
+
+OrganiX was developed by:
+
+- **Mark Angelo Baricante** - [22-03691@g.batstate-u.ph](mailto:22-03691@g.batstate-u.edu.ph) - [GitHub](https://github.com/gteknolohiya)
+- **Elwin Barredo** - [22-07108@g.batstate-u.ph](mailto:22-07108@g.batstate-u.edu.ph) - [GitHub](https://github.com/elwinthedevisor)
+- **Vency Gyro Capistrano** - [22-03691@g.batstate-u.ph](mailto:22-03691@g.batstate-u.edu.ph) - [GitHub](https://github.com/gyrogarithm)
+- **Boris Hernandez** - [22-03691@g.batstate-u.ph](mailto:22-03691@g.batstate-u.edu.ph) - [GitHub](https://github.com/borisher)
+  
+Feel free to reach out to the creators with any questions, suggestions, or collaboration requests.
+  
+  
+  
