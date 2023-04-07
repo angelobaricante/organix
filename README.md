@@ -57,7 +57,7 @@ Additionally, By helping users better organize and manage their digital files, O
 ## Features
 OrganiX offers a range of powerful features designed to enhance file organization and management:
 
-1. __Advance File Organizer__: Automatically organizes files based on their types into predefined or customizable folders, making it easy for users to locate and manage their documents, images, videos, and other file types.
+1. __Advance File Organizer__:open_file_folder:: Automatically organizes files based on their types into predefined or customizable folders, making it easy for users to locate and manage their documents, images, videos, and other file types.
 
 2. __Temporary File Deleter__:wastebasket:: Scans and removes temporary files, such as cache files, logs, and other one-time-use data, freeing up storage space and improving system performance.
 
