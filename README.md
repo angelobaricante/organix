@@ -39,7 +39,7 @@ OrganiX contributes to the United Nations' Sustainable Development Goals (SDGs) 
     <a href="https://sdgs.un.org/goals/goal4" target="_blank">
     <img alt="SDG 4: Quality Education" src="https://github.com/Gteknolohiya/organix/blob/main/assets/E_SDG_Icons-12.jpg" width="250" height="250">
   </picture>
-  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+  &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
   <picture align="center">
     <a href="https://sdgs.un.org/goals/goal12" target="_blank">
     <img alt="SDG 12: Responsible Consumption and Production" src="https://github.com/Gteknolohiya/organix/blob/main/assets/E_SDG_Icons-12.jpg" width="250" height="250">
