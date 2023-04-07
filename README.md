@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  A powerful, all-in-one laptop organizer tool that streamlines file management, declutters your workspace, and enhances productivity.
+  All-in-one laptop organizer tool that streamlines file management, declutters your workspace, and enhances productivity.
 </p>
 <p align="center">
     <a href="https://github.com/Gteknolohiya/organix/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/tailwindcss.svg" alt="License"></a>
