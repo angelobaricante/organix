@@ -14,6 +14,7 @@
 <p align="center">
     <a href="https://github.com/Gteknolohiya/organix/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/tailwindcss.svg" alt="License"></a>
 </p>
+
 ------
 
 ## Table of Contents
