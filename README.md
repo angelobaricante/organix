@@ -13,8 +13,8 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Gteknolohiya/organix/blob/main/LICENSE"><img alt="Programming language" src="https://img.shields.io/badge/language-Python-blue?logo=Python&logoColor=blue"></a>
-  <a href="https://github.com/Gteknolohiya/organix/blob/main/LICENSE"><img alt="Contributors" src="https://img.shields.io/badge/contributors-4-blue"></a>
+  <a href="https://github.com/Gteknolohiya/organix"><img alt="Programming language" src="https://img.shields.io/badge/language-Python-blue?logo=Python&logoColor=blue"></a>
+  <a href="https://github.com/Gteknolohiya/organix"><img alt="Contributors" src="https://img.shields.io/badge/contributors-4-blue"></a>
   <a href="https://github.com/Gteknolohiya/organix/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="License"></a>
 </p>
 
