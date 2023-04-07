@@ -21,7 +21,7 @@
 * [Installation and Setup](#installation-and-setup)
 * [Usage](#usage)
 * [Authors](#authors)
-* [Credits and Acknowledgements](#credits-and-acknowledgements)
+* [Acknowledgements](#acknowledgements)
 * [Contact Information](#contact-information)
 
 ## Why OrganiX
