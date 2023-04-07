@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  Declutter. Organize. Simplify.
+  A powerful, all-in-one laptop organizer tool that streamlines file management, declutters your workspace, and enhances productivity.
 </p>
 
 ------
