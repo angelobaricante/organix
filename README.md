@@ -21,11 +21,8 @@
 * [Installation and Setup](#installation-and-setup)
 * [Usage](#usage)
 * [Authors](#authors)
-
-
-License
 * [Credits and Acknowledgements](#credits-and-acknowledgements)
-Contact Information
+* [Contact Information](#contact-information)
 
 ## Why OrganiX
 We developed OrganiX because we understand the challenges that many students and laptop users face when it comes to organizing their digital files. With increasingly busy schedules and growing amounts of data, it can be difficult to keep track of and manage all the files on our laptops. OrganiX aims to address this issue by providing a comprehensive and user-friendly solution that simplifies the file organization process and helps users maintain a clutter-free digital workspace.
@@ -73,10 +70,10 @@ We are in the process of completing the OrganiX project. Once the project is fin
 
 OrganiX was developed by:
 
-- **Mark Angelo Baricante** - [22-03691@g.batstate-u.ph](mailto:22-03691@g.batstate-u.edu.ph) | [GitHub](https://github.com/gteknolohiya)
-- **Elwin Barredo** - [22-07108@g.batstate-u.ph](mailto:22-07108@g.batstate-u.edu.ph) | [GitHub](https://github.com/elwinthedevisor)
-- **Vency Gyro Capistrano** - [22-03691@g.batstate-u.ph](mailto:22-03691@g.batstate-u.edu.ph) | [GitHub](https://github.com/gyrogarithm)
-- **Boris Hernandez** - [22-03691@g.batstate-u.ph](mailto:22-03691@g.batstate-u.edu.ph) | [GitHub](https://github.com/borisher)
+- [Mark Angelo Baricante](https://github.com/gteknolohiya)
+- [Elwin Barredo](https://github.com/elwinthedevisor)
+- [Vency Gyro Capistrano](https://github.com/gyrogarithm)
+- [Boris Hernandez](https://github.com/borisher)
   
 Feel free to reach out to the creators with any questions, suggestions, or collaboration requests.
   
@@ -86,7 +83,11 @@ We would like to extend our sincere gratitude to our professor, **Francis Jesmar
 
 We would also like to express our gratitude to the developers and maintainers of the libraries and APIs used in this project, as well as the open-source community for their support and inspiration. 
   
-__Happy organizing!__  
+## Contact Information
+If you have any questions, suggestions, or collaboration requests, please feel free to reach out to us:
+
+Email: gteknolohiya@gmail.com
+Your GitHub: @gteknolohiya
   
-  
+Happy organizing!  
   
