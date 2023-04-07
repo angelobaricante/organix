@@ -34,6 +34,10 @@ We developed OrganiX because we understand the challenges that many students and
 
 OrganiX contributes to the United Nations' Sustainable Development Goals (SDGs) by promoting both responsible consumption and production patterns (SDG 12) and quality education (SDG 4).
 
+<picture>
+  <img alt="OrganiX" src="https://github.com/Gteknolohiya/organix/blob/main/logo.svg" height="120" style="max-width: 100%;">
+</picture>
+
 By helping users better organize and manage their digital files, OrganiX encourages more efficient use of resources, reduces electronic waste, and minimizes the need for additional storage hardware. This, in turn, contributes to a more sustainable and environmentally conscious digital ecosystem.
 
 Additionally, OrganiX supports quality education by helping students and educators maintain a well-organized digital workspace, which can lead to increased productivity and efficiency in their studies or teaching. By providing an easy-to-use tool for managing files and resources, OrganiX allows users to focus on learning and sharing knowledge, ultimately contributing to the goal of ensuring inclusive and equitable quality education for all.
