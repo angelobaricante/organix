@@ -36,6 +36,8 @@ OrganiX contributes to the United Nations' Sustainable Development Goals (SDGs) 
 
 <picture align="center">
   <img alt="SDG 12: Responsible Consumption and Production" src="https://github.com/Gteknolohiya/organix/blob/main/assets/E_SDG_Icons-12.jpg" width="100" height="100">
+</picture>
+<picture align="center">
   <img alt="SDG 12: Responsible Consumption and Production" src="https://github.com/Gteknolohiya/organix/blob/main/assets/E_SDG_Icons-12.jpg" width="100" height="100">
 </picture>
 
