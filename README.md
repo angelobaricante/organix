@@ -19,9 +19,9 @@
 * [How it Contributes to SDG](#how-it-contributes-to-sdg)
 * [Features](#features)
 * [Installation and Setup](#installation-and-setup)
-*[Usage](#usage)
-* Contributing
-Contributors
+* [Usage](#usage)
+* [Authors](#authors)
+
 
 License
 Credits and Acknowledgements
@@ -69,14 +69,14 @@ We are currently working on finalizing the OrganiX project. Once the project is 
 ## Usage (coming soon)  
 We are in the process of completing the OrganiX project. Once the project is finalized, we will provide a detailed usage guide to help users effectively utilize OrganiX's features and capabilities. Please stay tuned for updates and thank you for your patience!
   
-## Creators
+## Authors
 
 OrganiX was developed by:
 
-- **Mark Angelo Baricante** - [22-03691@g.batstate-u.ph](mailto:22-03691@g.batstate-u.edu.ph) - [GitHub](https://github.com/gteknolohiya)
-- **Elwin Barredo** - [22-07108@g.batstate-u.ph](mailto:22-07108@g.batstate-u.edu.ph) - [GitHub](https://github.com/elwinthedevisor)
-- **Vency Gyro Capistrano** - [22-03691@g.batstate-u.ph](mailto:22-03691@g.batstate-u.edu.ph) - [GitHub](https://github.com/gyrogarithm)
-- **Boris Hernandez** - [22-03691@g.batstate-u.ph](mailto:22-03691@g.batstate-u.edu.ph) - [GitHub](https://github.com/borisher)
+- **Mark Angelo Baricante** - [22-03691@g.batstate-u.ph](mailto:22-03691@g.batstate-u.edu.ph) | [GitHub](https://github.com/gteknolohiya)
+- **Elwin Barredo** - [22-07108@g.batstate-u.ph](mailto:22-07108@g.batstate-u.edu.ph) | [GitHub](https://github.com/elwinthedevisor)
+- **Vency Gyro Capistrano** - [22-03691@g.batstate-u.ph](mailto:22-03691@g.batstate-u.edu.ph) | [GitHub](https://github.com/gyrogarithm)
+- **Boris Hernandez** - [22-03691@g.batstate-u.ph](mailto:22-03691@g.batstate-u.edu.ph) | [GitHub](https://github.com/borisher)
   
 Feel free to reach out to the creators with any questions, suggestions, or collaboration requests.
   
