@@ -12,9 +12,9 @@
   All-in-one laptop organizer tool that streamlines file management, declutters your workspace, and enhances productivity.
 </p>
 <p align="center">
-    <a href="https://github.com/Gteknolohiya/organix/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/tailwindcss.svg" alt="License"></a>
   <img alt="Programming language" src="https://img.shields.io/badge/language-Python-blue?logo=Python&logoColor=yellow"</>
-  
+  <a href="https://github.com/Gteknolohiya/organix/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/tailwindcss.svg" alt="License"></a>
+  <img alt="Contributors" src=" https://img.shields.io/badge/contributors-4-green"</>
 </p>
 
 ------
