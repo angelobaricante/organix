@@ -13,7 +13,8 @@
 </p>
 <p align="center">
     <a href="https://github.com/Gteknolohiya/organix/blob/main/LICENSE"><img src="https://img.shields.io/npm/l/tailwindcss.svg" alt="License"></a>
-  <img alt="GitHub release (latest by date)" src="https://img.shields.io/github/v/release/organix/organix?color=purple"</>
+  <img alt="Programming language" src="https://img.shields.io/badge/Language-python-blue"</>
+  
 </p>
 
 ------
