@@ -24,7 +24,7 @@
 
 
 License
-Credits and Acknowledgements
+* [Credits and Acknowledgements](#credits-and-acknowledgements)
 Contact Information
 
 ## Why OrganiX
@@ -79,6 +79,14 @@ OrganiX was developed by:
 - **Boris Hernandez** - [22-03691@g.batstate-u.ph](mailto:22-03691@g.batstate-u.edu.ph) | [GitHub](https://github.com/borisher)
   
 Feel free to reach out to the creators with any questions, suggestions, or collaboration requests.
+  
+## Acknowledgements
+
+We would like to extend our sincere gratitude to our professor, **Francis Jesmar Montalbo**, for providing us with the opportunity to showcase our talents and create this innovative project. His guidance and support have been invaluable throughout the development process. You can find his GitHub profile [here](https://github.com/francismontalbo).
+
+We would also like to express our gratitude to the developers and maintainers of the libraries and APIs used in this project, as well as the open-source community for their support and inspiration. 
+  
+__Happy organizing!__  
   
   
   
