@@ -60,10 +60,10 @@ OrganiX offers a range of powerful features designed to enhance file organizatio
 
 5. __Voice-controlled File Management__: Allows users to control and interact with their file management system using voice commands, streamlining navigation and file organization tasks.
   
-## Installation and Setup (coming soon)
+## Installation and Setup
 We are currently working on finalizing the OrganiX project. Once the project is complete, we will provide a comprehensive installation and setup guide to help users easily get started with OrganiX. Please stay tuned for updates!
 
-## Usage (coming soon)  
+## Usage 
 We are in the process of completing the OrganiX project. Once the project is finalized, we will provide a detailed usage guide to help users effectively utilize OrganiX's features and capabilities. Please stay tuned for updates and thank you for your patience!
   
 ## Authors
