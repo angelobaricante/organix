@@ -65,7 +65,7 @@ OrganiX offers a range of powerful features designed to enhance file organizatio
 
 4. __Automatic Workspace Sanitizer__: Detects and addresses clutter, duplicates, and misplaced files, helping users maintain a clean and organized workspace with minimal manual intervention.
 
-5. __Voice-controlled File Management__: Allows users to control and interact with their file management system using voice commands, streamlining navigation and file organization tasks.
+5. __Voice-controlled File Management__:studio_microphone:: Allows users to control and interact with their file management system using voice commands, streamlining navigation and file organization tasks.
   
 ## Installation and Setup 
 We are currently working on finalizing the OrganiX project. Once the project is complete, we will provide a comprehensive installation and setup guide to help users easily get started with OrganiX. Please stay tuned for updates!
