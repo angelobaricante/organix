@@ -88,7 +88,7 @@ If you have any questions, suggestions, or collaboration requests, please feel f
 
 Email: gteknolohiya@gmail.com
   
-GitHub: @gteknolohiya
+GitHub: [@gteknolohiya](https://github.com/gteknolohiya)
   
 Happy organizing!  
   
