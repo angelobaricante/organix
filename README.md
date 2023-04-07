@@ -36,16 +36,18 @@ OrganiX contributes to the United Nations' Sustainable Development Goals (SDGs) 
 
 <p align="center">
   <picture align="center">
-    <img alt="SDG 12: Responsible Consumption and Production" src="https://github.com/Gteknolohiya/organix/blob/main/assets/E_SDG_Icons-12.jpg" width="250" height="250">
+    <a href="https://sdgs.un.org/goals/goal4" target="_blank">
+    <img alt="SDG 4: Quality Education" src="https://github.com/Gteknolohiya/organix/blob/main/assets/E_SDG_Icons-12.jpg" width="250" height="250">
   </picture>
   <picture align="center">
+    <a href="https://sdgs.un.org/goals/goal12" target="_blank">
     <img alt="SDG 12: Responsible Consumption and Production" src="https://github.com/Gteknolohiya/organix/blob/main/assets/E_SDG_Icons-12.jpg" width="250" height="250">
   </picture>
 </p>
 
-By helping users better organize and manage their digital files, OrganiX encourages more efficient use of resources, reduces electronic waste, and minimizes the need for additional storage hardware. This, in turn, contributes to a more sustainable and environmentally conscious digital ecosystem.
+OrganiX supports quality education by helping students and educators maintain a well-organized digital workspace, which can lead to increased productivity and efficiency in their studies or teaching. By providing an easy-to-use tool for managing files and resources, OrganiX allows users to focus on learning and sharing knowledge, ultimately contributing to the goal of ensuring inclusive and equitable quality education for all.
 
-Additionally, OrganiX supports quality education by helping students and educators maintain a well-organized digital workspace, which can lead to increased productivity and efficiency in their studies or teaching. By providing an easy-to-use tool for managing files and resources, OrganiX allows users to focus on learning and sharing knowledge, ultimately contributing to the goal of ensuring inclusive and equitable quality education for all.
+Additionally, By helping users better organize and manage their digital files, OrganiX encourages more efficient use of resources, reduces electronic waste, and minimizes the need for additional storage hardware. This, in turn, contributes to a more sustainable and environmentally conscious digital ecosystem.
 
 ## Features
 OrganiX offers a range of powerful features designed to enhance file organization and management:
