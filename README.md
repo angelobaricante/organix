@@ -1,9 +1,9 @@
 <p align="center">
   <a href="https://github.com/Gteknolohiya/organix" target="_blank">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Gteknolohiya/organix/blob/main/assets/logo.svg">
-      <source media="(prefers-color-scheme: light)" srcset="https://github.com/Gteknolohiya/organix/blob/main/assets/logo.svg">
-      <img alt="OrganiX" src="https://github.com/Gteknolohiya/organix/blob/main/assets/logo.svg" height="120" style="max-width: 100%;">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Gteknolohiya/organix/blob/main/logo.svg">
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/Gteknolohiya/organix/blob/main/logo.svg">
+      <img alt="OrganiX" src="https://github.com/Gteknolohiya/organix/blob/main/logo.svg" height="120" style="max-width: 100%;">
     </picture>
   </a>
 </p>
@@ -20,6 +20,7 @@
 * [Features](#features)
 * [Installation and Setup](#installation-and-setup)
 * [Usage](#usage)
+* [License](#license)
 * [Authors](#authors)
 * [Acknowledgements](#acknowledgements)
 * [Contact Information](#contact-information)
@@ -60,11 +61,14 @@ OrganiX offers a range of powerful features designed to enhance file organizatio
 
 5. __Voice-controlled File Management__: Allows users to control and interact with their file management system using voice commands, streamlining navigation and file organization tasks.
   
-## Installation and Setup
+## Installation and Setup (coming soon)
 We are currently working on finalizing the OrganiX project. Once the project is complete, we will provide a comprehensive installation and setup guide to help users easily get started with OrganiX. Please stay tuned for updates!
 
-## Usage 
+## Usage (coming soon)  
 We are in the process of completing the OrganiX project. Once the project is finalized, we will provide a detailed usage guide to help users effectively utilize OrganiX's features and capabilities. Please stay tuned for updates and thank you for your patience!
+
+## License
+OrganiX is licensed under the MIT License. See the [LICENSE](https://github.com/Gteknolohiya/organix/blob/main/LICENSE) file for details.
   
 ## Authors
 
