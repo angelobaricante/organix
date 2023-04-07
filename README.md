@@ -85,7 +85,7 @@ OrganiX was developed by:
 - [Vency Gyro Capistrano](https://github.com/gyrogarithm)
 - [Boris Hernandez](https://github.com/borisher)
   
-Feel free to reach out to the creators with any questions, suggestions, or collaboration requests.
+Feel free to reach out to the authors with any questions, suggestions, or collaboration requests.
   
 ## Acknowledgements
 
