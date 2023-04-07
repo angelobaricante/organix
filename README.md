@@ -87,7 +87,8 @@ We would also like to express our gratitude to the developers and maintainers of
 If you have any questions, suggestions, or collaboration requests, please feel free to reach out to us:
 
 Email: gteknolohiya@gmail.com
-Your GitHub: @gteknolohiya
+  
+GitHub: @gteknolohiya
   
 Happy organizing!  
   
