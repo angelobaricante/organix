@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  Voice-controlled file organization tool designed to simplify and streamline the file management process for busy laptop users.
+  Voice-controlled file management system that simplifies file organization, enhances performance, and streamlines navigation tasks.
 </p>
 
 <p align="center">
