@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  Voice-controlled file management system that simplifies file organization, enhances performance, and streamlines navigation tasks.
+  Voice-automated file management system that simplifies file organization, enhances performance, and streamlines navigation tasks.
 </p>
 
 <p align="center">
