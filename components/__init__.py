@@ -1,0 +1,1 @@
+from components.recognize_speech import recognize_speech
