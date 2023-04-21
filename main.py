@@ -1,5 +1,6 @@
 from components import recognize_speech
 
+
 text = recognize_speech()
 
 while text != "wow":
