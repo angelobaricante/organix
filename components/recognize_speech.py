@@ -1,6 +1,6 @@
 import speech_recognition as sr
 
-def recognize_speech():
+def recognize_speech(message):
     # initialize the recognizer
     r = sr.Recognizer()
     
@@ -8,6 +8,7 @@ def recognize_speech():
     with sr.Microphone() as source:
         # adjust for ambient noise
         r.adjust_for_ambient_noise(source)
+        print(message)
         print("Speak now...")
         # continuously listen for audio and recognize speech
         while True:
@@ -21,3 +22,6 @@ def recognize_speech():
                 print("Google Speech Recognition could not understand audio.")
             except sr.RequestError as e:
                 print(f"Could not request results from Google Speech Recognition service: {e}")
+
+
+
