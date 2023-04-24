@@ -2,6 +2,8 @@ import os
 import shutil
 import glob
 
+from utils import ask_name
+
 class FileOrganizer:
     def __init__(self, folder_path):
         self.folder_path = folder_path
@@ -46,7 +48,9 @@ class FileOrganizer:
                 else:
                     print(f"Could not find a matching file type for {filename}")
 
-    def auto_rename(self, file_name):
+    def auto_rename(self):
+        file_name = ask_name()
+
         # glob.glob function lists files or folders that matches the path specified; asterisk means all
         files = glob.glob(os.path.join(self.folder_path, "*"))
         # files will now be sorted by modification time
