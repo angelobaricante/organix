@@ -3,9 +3,7 @@ from utils import get_folder_path, recognize_speech
 
 def main():
     prompt = Prompt(get_folder_path())
-    # organizer = FileOrganizer(get_folder_path())
-
-    #1. Ask what task to do
+    
     program_on = True
 
     while program_on == True:

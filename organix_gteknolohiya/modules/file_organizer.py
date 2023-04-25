@@ -9,7 +9,6 @@ class FileOrganizer:
         self.folder_path = folder_path
     
     def auto_organize(self):
-        # Define file types and their corresponding folders
         file_types = {
             "audio": [".mp3", ".wav", ".flac", ".m4a", ".aac", ".ogg"],
             "documents": [".docx", ".pdf", ".odt"],
@@ -26,14 +25,11 @@ class FileOrganizer:
             "torrents": [".torrent"]
         }
 
-
-            # Create folders for each file type
         for folder_name in file_types:
             folder_path = os.path.join(self.folder_path, folder_name)
             if not os.path.exists(folder_path):
                 os.makedirs(folder_path)
 
-        # Organize files into their corresponding folders
         for filename in os.listdir(self.folder_path):
             file_path = os.path.join(self.folder_path, filename)
             if os.path.isfile(file_path):
@@ -51,18 +47,13 @@ class FileOrganizer:
     def auto_rename(self):
         file_name = ask_name()
 
-        # glob.glob function lists files or folders that matches the path specified; asterisk means all
         files = glob.glob(os.path.join(self.folder_path, "*"))
-        # files will now be sorted by modification time
         files = sorted(files, key=os.path.getmtime)
-        # for each file in the directory, it will perform these actions:
+
         for i, file in enumerate(files):
             try:
-                # program will get file extension and assign it; root = [0], extension = [1]
                 ext = os.path.splitext(file)[1]
-                # program will make a new fil  path = self.folder_pathename with an incrementing index while making sure the extension is retained
                 new_file_name = f"{file_name} - {i+1}{ext}"
-                # program will rename the file to the new filename
                 os.rename(file, os.path.join(self.folder_path, new_file_name))
             except OSError:
                 print("Invalid operation!")
