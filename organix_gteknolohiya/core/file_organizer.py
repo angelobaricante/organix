@@ -2,11 +2,11 @@ import os
 import shutil
 import glob
 
-from utils import ask_name
+from utils import ask_name, get_folder_path, print_with_delay
 
 class FileOrganizer:
-    def __init__(self, folder_path):
-        self.folder_path = folder_path
+    def __init__(self):
+        self.folder_path = get_folder_path()
     
     def auto_organize(self):
         file_types = {
@@ -30,23 +30,24 @@ class FileOrganizer:
             if not os.path.exists(folder_path):
                 os.makedirs(folder_path)
 
-        for filename in os.listdir(self.folder_path):
-            file_path = os.path.join(self.folder_path, filename)
+        for file_name in os.listdir(self.folder_path):
+            file_path = os.path.join(self.folder_path, file_name)
             if os.path.isfile(file_path):
-                file_extension = os.path.splitext(filename)[1].lower()
+                file_extension = os.path.splitext(file_name)[1].lower()
                 for file_type, extensions in file_types.items():
                     if file_extension in extensions:
                         destination_folder = os.path.join(self.folder_path, file_type)
 
                         shutil.move(file_path, destination_folder)
-                        print(f"Moved {filename} to {destination_folder}")
+                        print_with_delay(f"Moved {file_name} to {destination_folder}", 0.2)
                         break
                 else:
-                    print(f"Could not find a matching file type for {filename}")
+                    print_with_delay(f"Could not find a matching file type for {file_name}", 2)
+
+        print_with_delay("\nAll files have been organized successfully.", 3)
 
     def auto_rename(self):
         file_name = ask_name()
-
         files = glob.glob(os.path.join(self.folder_path, "*"))
         files = sorted(files, key=os.path.getmtime)
 
@@ -55,16 +56,21 @@ class FileOrganizer:
                 ext = os.path.splitext(file)[1]
                 new_file_name = f"{file_name} - {i+1}{ext}"
                 os.rename(file, os.path.join(self.folder_path, new_file_name))
+                print_with_delay(f"{file} have been renamed successfully", 0.2)
             except OSError:
-                print("Invalid operation!")
+                print_with_delay("Invalid operation!", 2)
+
+        print_with_delay("\nAll files have been renamed successfully.", 3)
 
     def auto_delete(self):
         files_deleted = 0
 
-        for filename in os.listdir(self.folder_path):
-            if "temp file" in filename.lower():
-                os.remove(os.path.join(self.folder_path, filename))
+        for file_name in os.listdir(self.folder_path):
+            if "temp file" in file_name.lower():
+                os.remove(os.path.join(self.folder_path, file_name))
                 files_deleted += 1
-                print(f"{filename} deleted successfully.")
+                print_with_delay(f"{file_name} deleted successfully.", 0.2)
 
-        print(f"{files_deleted} files deleted.")
+        print_with_delay(f"\n{files_deleted} files deleted.", 0.2)
+
+        print_with_delay("\nAll files have been renamed successfully.", 3)

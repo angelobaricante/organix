@@ -1,13 +1,14 @@
-from modules import FileOrganizer
-from utils import recognize_speech
+from core import FileOrganizer
+from utils import recognize_speech, clc_print
+
 class Prompt:
-    def __init__(self, folder_path):
-        self.folder_path = folder_path
-        self.organizer = FileOrganizer(self.folder_path)
+    def __init__(self):
+        self.organizer = FileOrganizer()
 
     def ask_task(self, *args):
-        tasks = []  
-        print(f"What do you want to do? Do you want to:")
+        tasks = []
+
+        clc_print(f"What do you want to do? Do you want to:")
 
         for index, item in enumerate(args):
             task = f"{index + 1}. {item}"  
@@ -16,16 +17,17 @@ class Prompt:
         print("\n".join(tasks)) 
 
     def confirm_task(self, task):
-        response = recognize_speech(f"Do you want to {task} files in the folder? Yes or No?")
+        clc_print(f"Do you want to {task} files in the folder? Yes or No?")
+        response = recognize_speech()
 
         if response == "yes":
             task_name = f"auto_{task}"
             task_to_call = getattr(self.organizer, task_name)
-            task_to_call()
+            task_to_call()  
         elif response == "no":
             return False
         else:
-            print("Invalid response. Please try again.")
+            clc_print("Invalid response. Please try again.")
 
                 
 

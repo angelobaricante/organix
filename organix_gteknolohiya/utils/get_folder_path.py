@@ -1,19 +1,7 @@
-import speech_recognition as sr
 import PySimpleGUI as sg
 import os
 
-def ask_name():
-    while True:
-        text = recognize_speech("What would you like the files to be renamed as?").title()
-        file_name = text
-        text = recognize_speech(f"The filename you mentioned is {file_name}. Are you sure this is what you want to rename the files as? Yes/No: ")
-        if text == "yes":
-            return file_name
-        elif text == "no":
-            print("Going back to the last question...")
-        else:
-            print("Invalid option! Try again!")
-
+from .clear_console import clear_console
 
 def get_folder_path():
     sg.theme('DarkTeal9')
@@ -33,7 +21,7 @@ def get_folder_path():
         event, values = window.read()
         if event == sg.WIN_CLOSED or event == 'Cancel':
             window.close()
-            return None
+            # return None
         elif event == 'OK':
             folder_path = values['-FOLDER-']
 
@@ -42,31 +30,7 @@ def get_folder_path():
             else:
                 window.close()
                 return r"{}".format(folder_path)
-
-folder_path = get_folder_path()
-
-if folder_path is not None:
-    print(f'Selected folder path: {folder_path}')
-else:
-    print('Operation canceled.') 
-
-
-def recognize_speech(message):
-    r = sr.Recognizer()
-    
-    with sr.Microphone() as source:
-        r.adjust_for_ambient_noise(source)
-        print(message)
-        print("Speak now...")
-
-        while True:
-            audio = r.listen(source)
-
-            try:
-                text = r.recognize_google(audio, language='en-US')
-                print(f"You said: {text}")
-                return text
-            except sr.UnknownValueError:
-                print("Google Speech Recognition could not understand audio.")
-            except sr.RequestError as e:
-                print(f"Could not request results from Google Speech Recognition service: {e}")
+        else:
+            print('Operation canceled.')
+            clear_console()
+            
