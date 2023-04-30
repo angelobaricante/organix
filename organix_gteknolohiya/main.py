@@ -8,19 +8,19 @@ def main():
 
     while program_on == True:
         prompt.ask_task("organize", "rename", "delete", "exit")
-        todo = recognize_speech()  
+        response = recognize_speech()  
 
         while True:
-            if todo == "organize":
+            if "organize" in response:
                 prompt.confirm_task("organize")
                 break
-            elif todo == "rename":
+            elif "rename" in response:
                 prompt.confirm_task("rename")    
                 break
-            elif todo == "delete":
+            elif "delete" in response:
                 prompt.confirm_task("delete")
                 break
-            elif todo == "exit":
+            elif "exit" in response:
                 program_on = False
                 clc_print("Bye bitch!")
                 break
