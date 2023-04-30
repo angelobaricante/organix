@@ -9,7 +9,7 @@ def recognize_speech():
         print("\nSpeak now...")
 
         while True:
-            audio = r.listen(source, timeout=2, phrase_time_limit=2)
+            audio = r.listen(source, timeout=2, phrase_time_limit=5)
 
             try:
                 text = r.recognize_google(audio, language='en-US')
