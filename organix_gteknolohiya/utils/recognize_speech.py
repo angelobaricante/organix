@@ -6,10 +6,10 @@ def recognize_speech():
     
     with sr.Microphone() as source:
         r.adjust_for_ambient_noise(source)
-        print("Speak now...")
+        print("\nSpeak now...")
 
         while True:
-            audio = r.listen(source)
+            audio = r.listen(source, timeout=2, phrase_time_limit=2)
 
             try:
                 text = r.recognize_google(audio, language='en-US')

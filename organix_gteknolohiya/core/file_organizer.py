@@ -3,7 +3,6 @@ import shutil
 import glob
 
 from utils import ask_name, get_folder_path, print_with_delay
-
 class FileOrganizer:
     def __init__(self):
         self.folder_path = get_folder_path()
@@ -79,7 +78,7 @@ class FileOrganizer:
     def auto_delete(self):
         # Check if there are any files in the folder
         if not any(os.path.isfile(os.path.join(self.folder_path, file_name)) for file_name in os.listdir(self.folder_path)):
-            print_with_delay("There's no file to delete", 2)
+            print_with_delay("\nThere's no file to delete.", 2)
             return  # Return early if no files found
 
         files_deleted = 0
