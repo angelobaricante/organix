@@ -7,7 +7,7 @@ from utils import ask_name, get_folder_path, print_with_delay
 class FileOrganizer:
     def __init__(self):
         self.folder_path = get_folder_path()
-    
+
     def auto_organize(self):
         file_types = {
             "audio": [".mp3", ".wav", ".flac", ".m4a", ".aac", ".ogg"],
@@ -24,6 +24,11 @@ class FileOrganizer:
             "web": [".url", ".htm", ".mht"],
             "torrents": [".torrent"]
         }
+
+        # Check if there are any files in the folder
+        if not any(os.path.isfile(os.path.join(self.folder_path, file_name)) for file_name in os.listdir(self.folder_path)):
+            print_with_delay("\nThere's no file to organize.", 2)
+            return  # Return early if no files found
 
         for folder_name in file_types:
             folder_path = os.path.join(self.folder_path, folder_name)
@@ -46,7 +51,15 @@ class FileOrganizer:
 
         print_with_delay("\nAll files have been organized successfully.", 3)
 
+        
+
+
     def auto_rename(self):
+        # Check if there are any files in the folder
+        if not any(os.path.isfile(os.path.join(self.folder_path, file_name)) for file_name in os.listdir(self.folder_path)):
+            print_with_delay("\nThere's no file to rename", 2)
+            return  # Return early if no files found
+
         file_name = ask_name()
         files = glob.glob(os.path.join(self.folder_path, "*"))
         files = sorted(files, key=os.path.getmtime)
@@ -62,7 +75,13 @@ class FileOrganizer:
 
         print_with_delay("\nAll files have been renamed successfully.", 3)
 
+
     def auto_delete(self):
+        # Check if there are any files in the folder
+        if not any(os.path.isfile(os.path.join(self.folder_path, file_name)) for file_name in os.listdir(self.folder_path)):
+            print_with_delay("There's no file to delete", 2)
+            return  # Return early if no files found
+
         files_deleted = 0
 
         for file_name in os.listdir(self.folder_path):
@@ -74,3 +93,4 @@ class FileOrganizer:
         print_with_delay(f"\n{files_deleted} files deleted.", 0.2)
 
         print_with_delay("\nAll files have been renamed successfully.", 3)
+
