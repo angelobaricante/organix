@@ -61,11 +61,7 @@ OrganiX offers a range of powerful voice-activated features designed to enhance 
 
 2. __Temporary File Deleter__:wastebasket: : Users can include a ".temp" keyword in files meant for one-time use (e.g., images downloaded for a single project), and instruct OrganiX to swiftly delete all such temporary files with a single voice command. This frees up storage space and enhances system performance by eliminating cache files, logs, and other short-term data.
 
-3. __Automated Backup__:floppy_disk: : Users can set up automated backups of user-defined folders and files with a voice command, ensuring that critical data is safe and secure.
-
-4. __Automatic Workspace Sanitizer__:sparkles:	: OrganiX can detect and address clutter, duplicates, and misplaced files with a voice command, helping users maintain a clean and organized workspace with minimal manual intervention.
-
-5. __Voice-controlled File Management__:studio_microphone: : Users can control and interact with their file management system using voice commands, streamlining navigation and file organization tasks.
+3. __Auto Rename__:memo: :  automatically rename multiple files in a folder using a pre-defined naming convention, saving time and effort in manual file renaming.
   
 ## Installation and Setup 
 We are currently working on finalizing the OrganiX project. Once the project is complete, we will provide a comprehensive installation and setup guide to help users easily get started with OrganiX. Please stay tuned for updates!
