@@ -20,11 +20,11 @@ class Prompt:
         clc_print(f"Do you want to {task} files in the folder? Yes or No?")
         response = recognize_speech()
 
-        if response == "yes":
+        if "yes" in response:
             task_name = f"auto_{task}"
             task_to_call = getattr(self.organizer, task_name)
             task_to_call()  
-        elif response == "no":
+        elif "no" in response:
             return False
         else:
             clc_print("Invalid response. Please try again.")
