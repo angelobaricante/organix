@@ -61,10 +61,10 @@ class FileOrganizer:
                             suffix += 1
 
                         shutil.move(file_path, destination_file_path)
-                        print_with_delay(f"Moved {file_name} to {destination_file_path}", 0.2)
+                        print(f"Moved {file_name} to {destination_file_path}", 0.2)
                         break
                 else:
-                    print_with_delay(f"Could not find a matching file type for {file_name}", 2)
+                    print(f"Could not find a matching file type for {file_name}")
 
         print_with_delay("\nAll files have been organized successfully.", 3)
 
@@ -82,7 +82,7 @@ class FileOrganizer:
                 ext = os.path.splitext(file)[1]
                 new_file_name = f"{file_name} - {i+1}{ext}"
                 os.rename(file, os.path.join(self.folder_path, new_file_name))
-                print_with_delay(f"{file} have been renamed successfully", 0.2)
+                print(f"{file} have been renamed successfully", 0.2)
             except OSError:
                 print_with_delay("Invalid operation!", 2)
 
@@ -105,8 +105,8 @@ class FileOrganizer:
         for file_name in files_to_delete:
             os.remove(os.path.join(self.folder_path, file_name))
             files_deleted += 1
-            print_with_delay(f"{file_name} deleted successfully.", 0.2)
+            print(f"{file_name} deleted successfully.", 0.2)
 
-        print_with_delay(f"\n{files_deleted} files deleted.", 0.2)
+        print(f"\n{files_deleted} files deleted.", 0.2)
         print_with_delay("\nAll files have been deleted successfully.", 3)
 
