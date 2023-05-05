@@ -22,7 +22,7 @@ def main():
                 break
             elif "exit" in response:
                 program_on = False
-                clc_print("Bye bitch!")
+                clc_print("Goodbye from OrganiX! Happy organizing!")
                 break
             else:
                 print_with_delay("Invalid response. Please try again.", 2)

@@ -8,7 +8,7 @@ class Prompt:
     def ask_task(self, *args):
         tasks = []
 
-        clc_print(f"What do you want to do? Do you want to:")
+        clc_print("Declutter mode on! What to do?")
 
         for index, item in enumerate(args):
             task = f"{item}"  
