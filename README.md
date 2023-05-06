@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  Voice-automated file management system that simplifies file organization, enhances performance, and streamlines navigation tasks.
+  Python voice file management.
 </p>
 
 <p align="center">
