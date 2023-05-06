@@ -32,7 +32,7 @@
 * [Contact Information](#contact-information)
 
 ## Why OrganiX
-OrganiX is a revolutionary file organization tool that uses voice automation to simplify the file organization process for laptop and mobile device users. With increasingly busy schedules and growing amounts of data, it can be difficult to keep track of and manage all the files on our devices. OrganiX aims to address this issue by providing a comprehensive and user-friendly solution that simplifies the file organization process and helps users maintain a clutter-free digital workspace.
+OrganiX is a revolutionary file organization tool that uses voice automation to simplify the file organization process for laptop and pc users. With increasingly busy schedules and growing amounts of data, it can be difficult to keep track of and manage all the files on our devices. OrganiX aims to address this issue by providing a comprehensive and user-friendly solution that simplifies the file organization process and helps users maintain a clutter-free digital workspace.
 
 ## How it Contributes to SDG
 
