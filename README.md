@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  Declutter your computer files using just your voice.
+  Organize and declutter computer files using voice commands.
 </p>
 
 <p align="center">
