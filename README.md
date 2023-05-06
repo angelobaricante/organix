@@ -9,7 +9,7 @@
 </p>
 
 <p align="center">
-  Python voice file management.
+  Declutter your computer files using just your voice.
 </p>
 
 <p align="center">
