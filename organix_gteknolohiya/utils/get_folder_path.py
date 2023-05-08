@@ -4,6 +4,20 @@ import os
 from .clear_console import clear_console
 
 def get_folder_path():
+    """
+    Displays a PySimpleGUI window that allows the user to select a folder directory.
+
+    Returns:
+    str: The selected folder path.
+
+    The function displays a PySimpleGUI window that prompts the user to select a folder directory. Once a valid
+    directory is selected and the user clicks the 'OK' button, the window closes and the selected folder path is returned.
+
+    If the user clicks the 'Cancel' button or closes the window, the function returns None.
+
+    If the selected directory does not exist, an error message is displayed and the user is prompted to select a valid
+    directory.
+    """
     sg.theme('DarkTeal9')
     sg.theme_background_color('#0f172a')
 

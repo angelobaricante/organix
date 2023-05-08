@@ -3,6 +3,13 @@ from .print_with_delay import print_with_delay
 from speech_recognition.exceptions import WaitTimeoutError
 
 def recognize_speech():
+    """
+    Uses the SpeechRecognition library to recognize speech input from the user's
+    microphone.
+
+    Returns:
+        A string containing the recognized text.
+    """
     r = sr.Recognizer()
 
     with sr.Microphone() as source:
@@ -24,3 +31,4 @@ def recognize_speech():
                 print("Google Speech Recognition could not understand audio.")
             except sr.RequestError as e:
                 print(f"Could not request results from Google Speech Recognition service: {e}")
+    

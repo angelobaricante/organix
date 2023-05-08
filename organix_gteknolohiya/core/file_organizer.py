@@ -30,15 +30,53 @@ class FileOrganizer:
     }
 
     def __init__(self):
+        """
+        Initializes a new instance of the FileOrganizer class.
+    
+        The constructor gets the folder path from the user, and stores it as an instance variable 
+        named folder_path.
+        """
         self.folder_path = get_folder_path()
 
     def has_files(self):
+        """
+        Check if the folder has any files.
+
+        Returns:
+            bool: True if there is at least one file in the folder, False otherwise.
+        """
         return any(os.path.isfile(os.path.join(self.folder_path, file_name)) for file_name in os.listdir(self.folder_path))
 
     def find_files_by_extension(self, extensions):
+        """
+        Finds all files in the folder with the given extensions.
+
+        Args:
+            extensions (list): A list of file extensions to search for. Each extension should be a string 
+            starting with a period (e.g. '.txt', '.pdf').
+
+        Returns:
+            list: A list of file names (strings) with the given extensions.
+        """
         return [f for f in os.listdir(self.folder_path) if os.path.splitext(f)[1].lower() in extensions]
 
     def auto_organize(self):
+        """
+        Automatically organizes files in the designated folder based on their file type.
+
+        If there are no files in the folder, a message is printed stating there are no files to organize.
+
+        For each file in the folder, the file type is determined by its file extension. The file is then moved
+        to a destination folder based on its file type. If the destination folder does not exist, it is created.
+        If a file with the same name already exists in the destination folder, the file name is modified to
+        avoid overwriting the existing file.
+
+        If a file type cannot be determined based on its file extension, a message is printed stating that
+        a matching file type could not be found.
+
+        After all files have been processed, a message is printed stating that all files have been organized
+        successfully.
+        """
         if not self.has_files():
             print_with_delay("\nThere's no file to organize.", 2)
             return
@@ -69,6 +107,9 @@ class FileOrganizer:
         print_with_delay("\nAll files have been organized successfully.", 3)
 
     def auto_rename(self):
+        """
+        Renames all files in the folder with a given name and adds a numbering suffix.
+        """
         if not self.has_files():
             print_with_delay("\nThere's no file to rename", 2)
             return
@@ -89,6 +130,12 @@ class FileOrganizer:
         print_with_delay("\nAll files have been renamed successfully.", 3)
 
     def auto_delete(self):
+        """
+        Automatically deletes all the empty folders in the given folder_path.
+
+        Returns:
+            None
+        """
         if not self.has_files():
             print_with_delay("\nThere's no file to delete.", 2)
             return
@@ -97,9 +144,24 @@ class FileOrganizer:
         self.delete_files(files_to_delete)
 
     def find_files_to_delete(self):
+        """
+        Finds all files in the current folder that contain "temp file" in their name.
+    
+        Returns:
+            A list of file names to be deleted.
+        """
         return [f for f in os.listdir(self.folder_path) if "temp file" in f.lower()]
 
     def delete_files(self, files_to_delete):
+        """
+        Deletes the specified files in the folder.
+
+        Args:
+            files_to_delete (list): A list of file names to be deleted.
+
+        Returns:
+            None
+        """
         files_deleted = 0
 
         for file_name in files_to_delete:
