@@ -80,6 +80,7 @@ OrganiX was developed by:
 - [Elwin Barredo](https://github.com/elwinthedevisor)
 - [Vency Gyro Capistrano](https://github.com/gyrogarithm)
 - [Boris Hernandez](https://github.com/borisher)
+- [Cyrus Rol](https://github.com/cykeeee)
   
 Feel free to reach out to the authors with any questions, suggestions, or collaboration requests.
   
