@@ -1,9 +1,9 @@
 <p align="center">
-  <a href="https://github.com/Gteknolohiya/organix" target="_blank">
+  <a href="https://github.com/angelobaricante/organix" target="_blank">
     <picture>
-      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/Gteknolohiya/organix/blob/main/assets/logo.jpg">
-      <source media="(prefers-color-scheme: light)" srcset="https://github.com/Gteknolohiya/organix/blob/main/assets/logo.svg">
-      <img alt="OrganiX" src="https://github.com/Gteknolohiya/organix/blob/main/assets/logo.svg" height="120" style="max-width: 100%;">
+      <source media="(prefers-color-scheme: dark)" srcset="https://github.com/angelobaricante/organix/blob/main/assets/logo.jpg">
+      <source media="(prefers-color-scheme: light)" srcset="https://github.com/angelobaricante/organix/blob/main/assets/logo.svg">
+      <img alt="OrganiX" src="https://github.com/angelobaricante/organix/blob/main/assets/logo.svg" height="120" style="max-width: 100%;">
     </picture>
   </a>
 </p>
@@ -13,9 +13,9 @@
 </p>
 
 <p align="center">
-  <a href="https://github.com/Gteknolohiya/organix"><img alt="Programming language" src="https://img.shields.io/badge/language-Python-blue?logo=Python&logoColor=blue"></a>
-  <a href="https://github.com/Gteknolohiya/organix"><img alt="Contributors" src="https://img.shields.io/badge/contributors-4-blue"></a>
-  <a href="https://github.com/Gteknolohiya/organix/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="License"></a>
+  <a href="https://github.com/angelobaricante/organix"><img alt="Programming language" src="https://img.shields.io/badge/language-Python-blue?logo=Python&logoColor=blue"></a>
+  <a href="https://github.com/angelobaricante/organix"><img alt="Contributors" src="https://img.shields.io/badge/contributors-4-blue"></a>
+  <a href="https://github.com/angelobaricante/organix/blob/main/LICENSE"><img src="https://img.shields.io/badge/license-MIT-blue" alt="License"></a>
 </p>
 
 ------
@@ -41,7 +41,7 @@ OrganiX contributes to the United Nations' Sustainable Development Goals (SDGs) 
 <p align="center">
   <picture align="center">
     <a href="https://sdgs.un.org/goals/goal4" target="_blank">
-    <img alt="SDG 4: Quality Education" src="https://github.com/Gteknolohiya/organix/blob/main/assets/E_SDG_Icons-04.jpg" width="250" height="250">
+    <img alt="SDG 4: Quality Education" src="https://github.com/angelobaricante/organix/blob/main/assets/E_SDG_Icons-04.jpg" width="250" height="250">
   </picture>
 </p>
 
@@ -49,7 +49,7 @@ OrganiX supports quality education by helping students and educators maintain a 
 <p align="center">
   <picture align="center">
     <a href="https://sdgs.un.org/goals/goal12" target="_blank">
-    <img alt="SDG 12: Responsible Consumption and Production" src="https://github.com/Gteknolohiya/organix/blob/main/assets/E_SDG_Icons-12.jpg" width="250" height="250">
+    <img alt="SDG 12: Responsible Consumption and Production" src="https://github.com/angelobaricante/organix/blob/main/assets/E_SDG_Icons-12.jpg" width="250" height="250">
   </picture>
 </p>
 Additionally, By helping users better organize and manage their digital files, OrganiX encourages more efficient use of resources, reduces electronic waste, and minimizes the need for additional storage hardware. This, in turn, contributes to a more sustainable and environmentally conscious digital ecosystem.
@@ -70,13 +70,13 @@ We are currently working on finalizing the OrganiX project. Once the project is 
 We are in the process of completing the OrganiX project. Once the project is finalized, we will provide a detailed usage guide to help users effectively utilize OrganiX's features and capabilities. Please stay tuned for updates and thank you for your patience!
 
 ## License
-OrganiX is licensed under the MIT License. See the [LICENSE](https://github.com/Gteknolohiya/organix/blob/main/LICENSE) file for details.
+OrganiX is licensed under the MIT License. See the [LICENSE](https://github.com/angelobaricante/organix/blob/main/LICENSE) file for details.
   
 ## Authors
 
 OrganiX was developed by:
 
-- [Mark Angelo Baricante](https://github.com/gteknolohiya)
+- [Mark Angelo Baricante](https://github.com/angelobaricante)
 - [Elwin Barredo](https://github.com/elwinthedevisor)
 - [Vency Gyro Capistrano](https://github.com/gyrogarithm)
 - [Boris Hernandez](https://github.com/borisher)
@@ -93,9 +93,9 @@ We would also like to express our gratitude to the developers and maintainers of
 ## Contact Information
 If you have any questions, suggestions, or collaboration requests, please feel free to reach out to us:
 
-Email: gteknolohiya@gmail.com
+Email: angelobaricante@gmail.com
   
-GitHub: [@gteknolohiya](https://github.com/gteknolohiya)
+GitHub: [@angelobaricante](https://github.com/angelobaricante)
   
   
   
