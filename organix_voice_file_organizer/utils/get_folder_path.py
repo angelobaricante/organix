@@ -1,9 +1,23 @@
 import PySimpleGUI as sg
 import os
 
-from .clear_console import clear_console
-
 def get_folder_path():
+    """
+    Prompts the user to select a folder directory through a PySimpleGUI window.
+
+    This function uses PySimpleGUI to display a window with a 'Browse' button,
+    which opens a directory chooser dialog. The user can select a folder and 
+    confirm their choice by clicking 'OK'. The chosen folder path is then returned.
+    
+    If the user clicks 'Cancel' or closes the window, the function ends and no 
+    folder path is returned.
+
+    Returns:
+        folder_path (str): The absolute path of the chosen directory. None if the user cancels the operation or chooses an invalid directory.
+
+    Raises:
+        sg.PopupError: If the chosen directory does not exist.
+    """    
     sg.theme('DarkTeal9')
     sg.theme_background_color('#0f172a')
 
@@ -32,5 +46,5 @@ def get_folder_path():
                 return r"{}".format(folder_path)
         else:
             print('Operation canceled.')
-            clear_console()
+            os.system('cls' if os.name == 'nt' else 'clear')
             
