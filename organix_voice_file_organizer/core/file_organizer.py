@@ -2,7 +2,7 @@ import os
 import shutil
 import glob
 
-from utils import ask_name, get_folder_path, print_with_delay
+from utils import get_folder_path, print_with_delay, clc_print, recognize_speech
 class FileOrganizer:
     file_types = {
         "audio": [".mp3", ".wav", ".flac", ".m4a", ".aac", ".ogg", ".wma", ".aiff", ".amr", ".m4b", ".m4p", ".midi", ".opus"],
@@ -37,6 +37,22 @@ class FileOrganizer:
 
     def find_files_by_extension(self, extensions):
         return [f for f in os.listdir(self.folder_path) if os.path.splitext(f)[1].lower() in extensions]
+    
+    def ask_name():
+        while True:
+            clc_print("What would you like the files to be renamed as?")
+            response = recognize_speech().title()
+            file_name = response
+
+            clc_print(f"The filename you mentioned is {file_name}. Are you sure this is what you want to rename the files as? Yes or No?")
+            response = recognize_speech()
+
+            if response == "yes":
+                return file_name
+            elif response == "no":
+                clc_print("Going back to the last question...")
+            else:
+                clc_print("Invalid option! Try again!")
 
     def auto_organize(self):
         if not self.has_files():
@@ -73,7 +89,7 @@ class FileOrganizer:
             print_with_delay("\nThere's no file to rename", 2)
             return
 
-        file_name = ask_name()
+        file_name = self.ask_name()
         files = glob.glob(os.path.join(self.folder_path, "*"))
         files = sorted(files, key=os.path.getmtime)
 
