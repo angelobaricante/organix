@@ -21,6 +21,6 @@ def recognize_speech():
                 print_with_delay(f"\nYou said: {text}", 0.5)
                 return text
             except sr.UnknownValueError:
-                print("Google Speech Recognition could not understand audio.")
+                print("...")
             except sr.RequestError as e:
                 print(f"Could not request results from Google Speech Recognition service: {e}")
