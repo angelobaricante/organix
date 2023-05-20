@@ -2,43 +2,48 @@ import os
 import shutil
 import glob
 
-from utils import get_folder_path, print_with_delay, clc_print, recognize_speech
+from utils import file_types, get_folder_path, print_with_delay, clc_print, recognize_speech
 class FileOrganizer:
-    file_types = {
-        "audio": [".mp3", ".wav", ".flac", ".m4a", ".aac", ".ogg", ".wma", ".aiff", ".amr", ".m4b", ".m4p", ".midi", ".opus"],
-        "documents": [".docx", ".pdf", ".odt", ".doc", ".xls", ".xlsx", ".ods", ".ppt", ".pptx", ".odp", ".rtf", ".txt", ".md", ".csv", ".tex", ".epub", ".mobi", ".azw3"],
-        "images": [".jpg", ".png", ".gif", ".bmp", ".svg", ".tiff", ".ico", ".webp", ".heif", ".psd", ".ai", ".xcf", ".indd", ".raw", ".cr2", ".nef", ".orf", ".sr2", ".kdc"],
-        "videos": [".mp4", ".avi", ".mov", ".wmv", ".mkv", ".flv", ".webm", ".m4v", ".vob", ".ogv", ".mpeg", ".mpg", ".mts", ".m2ts", ".m2v", ".3gp", ".swf"],
-        "archives": [".zip", ".rar", ".tar", ".gz", ".7z", ".bz2", ".xz", ".iso", ".cab", ".z", ".lz", ".lzma", ".lzh", ".s7z", ".apk"],
-        "code": [".py", ".c", ".cpp", ".java", ".html", ".css", ".js", ".php", ".go", ".rb", ".swift", ".cs", ".sh", ".bat", ".pl", ".r", ".rs", ".m", ".kt", ".ts", ".sql", ".lua", ".pas", ".asm", ".s", ".vbs", ".vb", ".json", ".xml", ".yml", ".yaml", ".ini", ".conf", ".config", ".reg", ".properties", ".xhtml", ".dtd", ".asc", ".scss", ".sass", ".less", ".h", ".hpp", ".hxx", ".hh", ".scala", ".sbt", ".hs", ".elm", ".clj", ".cljs", ".edn", ".groovy", ".gradle", ".mjs", ".fs", ".fsx", ".fsi", ".v", ".sv"],
-        "executables": [".exe", ".msi", ".apk", ".app", ".bat", ".bin", ".cgi", ".com", ".gadget", ".jar", ".pif", ".vb", ".wsf"],
-        "fonts": [".ttf", ".otf", ".woff", ".woff2", ".eot", ".fon", ".pfa", ".pfb", ".sfd"],
-        "presentations": [".ppt", ".pptx", ".key", ".odp"],
-        "spreadsheets": [".xls", ".xlsx", ".ods", ".csv"],
-        "text": [".doc", ".rtf", ".md", ".txt", ".log", ".tex", ".me", ".1st", ".ans", ".asc", ".ascii", ".diz", ".nfo", ".now", ".srt", ".sub"],
-        "web": [".url", ".htm", ".html", ".xhtml", ".php", ".asp", ".aspx", ".jsp", ".jspx", ".jsf", ".jspx", ".cgi", ".pl", ".shtml", ".mhtml", ".mht", ".dhtml"],
-        "torrents": [".torrent"],
-        "ebooks": [".epub", ".mobi", ".azw", ".azw3", ".ibooks"],
-        "3d_models": [".obj", ".fbx", ".dae", ".3ds", ".blend", ".stl", ".step", ".iges", ".ply", ".x3d"],
-        "vector_graphics": [".svg", ".ai", ".eps", ".cdr"],
-        "design_files": [".psd", ".xd", ".sketch", ".fig", ".affinity", ".dwg"],
-        "database_files": [".db", ".sql", ".sqlite", ".sqlite3", ".dbf", ".mdb", ".accdb", ".myd", ".myi", ".frm", ".ibd", ".mdf", ".ndf", ".ldf", ".bak"],
-        "gis_files": [".shp", ".shx", ".dbf", ".prj", ".sbn", ".sbx", ".cpg", ".gpx", ".kml", ".kmz", ".geojson", ".gdb", ".tab", ".mapinfo", ".mif", ".mff", ".tif", ".tiff", ".tfw"],
-        "disk_images": [".iso", ".img", ".vdi", ".vhd", ".vhdx", ".vmdk"],
-        "compressed_files": [".lzh", ".lha", ".sit", ".sitx", ".sea", ".dmg", ".pkg", ".rpm", ".deb", ".arj", ".zoo", ".cpio", ".shar", ".rsrc"],
-        "virtualization_files": [".vmx", ".vbox", ".ovf", ".ova", ".vagrant", ".vagrantfile"]
-    }
+    """
+    A class to handle file organization tasks such as automatic file organization, renaming, and deletion.
+    """
 
     def __init__(self):
+        """
+        Initializes the FileOrganizer instance. Sets the directory for file operations.
+        """
+        self.file_types = file_types
         self.folder_path = get_folder_path()
 
     def has_files(self):
+        """
+        Checks if the target directory has any files.
+
+        Returns:
+            bool: True if directory has any files, False otherwise.
+        """
         return any(os.path.isfile(os.path.join(self.folder_path, file_name)) for file_name in os.listdir(self.folder_path))
 
     def find_files_by_extension(self, extensions):
+        """
+        Finds files in the target directory matching provided file extensions.
+
+        Args:
+            extensions (list): List of file extensions to search for.
+
+        Returns:
+            list: List of filenames that match the provided extensions.
+        """
         return [f for f in os.listdir(self.folder_path) if os.path.splitext(f)[1].lower() in extensions]
     
     def ask_name():
+        """
+        Prompts the user to provide a new name for renaming files.
+        Continues asking until a valid response is given.
+
+        Returns:
+            str: New name for files.
+        """        
         while True:
             clc_print("What would you like the files to be renamed as?")
             response = recognize_speech().title()
@@ -55,6 +60,11 @@ class FileOrganizer:
                 clc_print("Invalid option! Try again!")
 
     def auto_organize(self):
+        """
+        Automatically organizes files in the target directory by file type.
+        Each file is moved to a folder named after its file type.
+        If the folder doesn't exist, it is created.
+        """        
         if not self.has_files():
             print_with_delay("\nThere's no file to organize.", 2)
             return
@@ -85,6 +95,10 @@ class FileOrganizer:
         print_with_delay("\nAll files have been organized successfully.", 3)
 
     def auto_rename(self):
+        """
+        Automatically renames all files in the target directory based on user input.
+        Each file is renamed to the provided name followed by a unique number.
+        """        
         if not self.has_files():
             print_with_delay("\nThere's no file to rename", 2)
             return
@@ -105,6 +119,10 @@ class FileOrganizer:
         print_with_delay("\nAll files have been renamed successfully.", 3)
 
     def auto_delete(self):
+        """
+        Automatically deletes all temporary files in the target directory.
+        A temporary file is defined as any file with "temp file" in its name.
+        """        
         if not self.has_files():
             print_with_delay("\nThere's no file to delete.", 2)
             return
@@ -113,9 +131,21 @@ class FileOrganizer:
         self.delete_files(files_to_delete)
 
     def find_files_to_delete(self):
+        """
+        Finds all temporary files in the target directory.
+
+        Returns:
+            list: List of temporary files to delete.
+        """        
         return [f for f in os.listdir(self.folder_path) if "temp file" in f.lower()]
 
     def delete_files(self, files_to_delete):
+        """
+        Deletes a list of files in the target directory.
+
+        Args:
+            files_to_delete (list): List of filenames to delete.
+        """        
         files_deleted = 0
 
         for file_name in files_to_delete:
