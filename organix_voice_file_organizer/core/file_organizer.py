@@ -14,6 +14,9 @@ class FileOrganizer:
         """
         self.file_types = file_types
         self.folder_path = get_folder_path()
+    
+    def change_folder_path(self, folder_path):
+        self.folder_path = folder_path
 
     def has_files(self):
         """
@@ -36,7 +39,7 @@ class FileOrganizer:
         """
         return [f for f in os.listdir(self.folder_path) if os.path.splitext(f)[1].lower() in extensions]
     
-    def ask_name():
+    def ask_name(self):
         """
         Prompts the user to provide a new name for renaming files.
         Continues asking until a valid response is given.
@@ -100,7 +103,7 @@ class FileOrganizer:
         Each file is renamed to the provided name followed by a unique number.
         """        
         if not self.has_files():
-            print_with_delay("\nThere's no file to rename", 2)
+            print_with_delay("\nThere's no file to rename.", 2)
             return
 
         file_name = self.ask_name()

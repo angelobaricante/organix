@@ -1,5 +1,5 @@
 from core import FileOrganizer
-from utils import recognize_speech, clc_print, print_with_delay
+from utils import recognize_speech, clc_print, print_with_delay, get_folder_path
 
 class Prompt:
     """
@@ -69,6 +69,26 @@ class Prompt:
             return False
         else:
             clc_print("Invalid response. Please try again.")
+
+    def confirm_change_path(self, task, action):
+        """
+        Asks the user for confirmation to proceed with the given task.
+
+        Parameters
+        ----------
+        task : str
+            The task to be confirmed.
+        """        
+        clc_print(f"Do you want to {action}? Yes or No?")
+        response = recognize_speech()
+
+        if "yes" in response:
+             folder_path = get_folder_path()
+             self.organizer.change_folder_path(folder_path)
+        elif "no" in response:
+            return False
+        else:
+            clc_print("Invalid response. Please try again.")        
 
 
                 
