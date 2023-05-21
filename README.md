@@ -58,7 +58,7 @@ Additionally, By helping users better organize and manage their digital files, O
 Here's the UML class diagram of our project:
 <p align="center">
     <picture>
-      <img alt="OrganiX" src="https://github.com/angelobaricante/organix/blob/main/assets/um.svg" style="max-width: 100%;">
+      <img alt="OrganiX" src="https://github.com/angelobaricante/organix/blob/main/assets/uml.svg" style="max-width: 100%;">
     </picture>
   </a>
 </p>  
