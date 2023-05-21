@@ -54,6 +54,9 @@ OrganiX supports quality education by helping students and educators maintain a 
 </p>
 Additionally, By helping users better organize and manage their digital files, OrganiX encourages more efficient use of resources, reduces electronic waste, and minimizes the need for additional storage hardware. This, in turn, contributes to a more sustainable and environmentally conscious digital ecosystem.
 
+## UML Class Diagram
+Here's the UML class diagram of our project:
+  
 ## Features
 OrganiX offers a range of powerful voice-activated features designed to enhance file organization and management:
 
