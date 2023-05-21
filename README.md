@@ -56,6 +56,12 @@ Additionally, By helping users better organize and manage their digital files, O
 
 ## UML Class Diagram
 Here's the UML class diagram of our project:
+<p align="center">
+    <picture>
+      <img alt="OrganiX" src="https://github.com/angelobaricante/organix/blob/main/assets/uml.svg" style="max-width: 100%;">
+    </picture>
+  </a>
+</p>  
   
 ## Features
 OrganiX offers a range of powerful voice-activated features designed to enhance file organization and management:
