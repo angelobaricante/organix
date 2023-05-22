@@ -152,10 +152,13 @@ class FileOrganizer:
         files_deleted = 0
 
         for file_name in files_to_delete:
-            os.remove(os.path.join(self.folder_path, file_name))
+            try:
+                os.remove(os.path.join(self.folder_path, file_name))
+            except PermissionError:
+                print(f"Permission denied: Could not delete file '{file_name}' since its not a file.")
             files_deleted += 1
-            print(f"{file_name} deleted successfully.", 0.2)
+            print(f"{file_name} deleted successfully.")
 
-        print(f"\n{files_deleted} files deleted.", 0.2)
+        print(f"\n{files_deleted} files deleted.")
         print_with_delay("\nAll files have been deleted successfully.", 3)
 
