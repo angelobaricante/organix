@@ -33,14 +33,14 @@ def recognize_speech():
             try:
                 audio = r.listen(source, timeout=1, phrase_time_limit=2)
             except WaitTimeoutError:
-                print("No speech detected. Please try again.")
+                print(" ")
                 continue
 
             try:
                 text = r.recognize_google(audio, language='en-US')
-                print_with_delay(f"\nYou said: {text}", 0.5)
+                print_with_delay(f"\nYou said: {text}\n", 0.5)
                 return text
             except sr.UnknownValueError:
-                print("...")
+                print(" ")
             except sr.RequestError as e:
                 print(f"Could not request results from Google Speech Recognition service: {e}")
