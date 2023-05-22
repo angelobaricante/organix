@@ -1,5 +1,5 @@
 from core import FileOrganizer
-from utils import recognize_speech, clc_print, print_with_delay, get_folder_path
+from utils import recognize_speech, clc_print, get_folder_path
 
 class Prompt:
     """
@@ -47,7 +47,7 @@ class Prompt:
             task = f"{item}"  
             tasks.append(task)  
                  
-        print_with_delay("\n".join(tasks), 2) 
+        print("\n".join(tasks)) 
 
     def confirm_task(self, task):
         """
