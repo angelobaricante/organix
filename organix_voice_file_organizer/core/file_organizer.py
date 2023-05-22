@@ -90,7 +90,7 @@ class FileOrganizer:
                             suffix += 1
 
                         shutil.move(file_path, destination_file_path)
-                        print(f"Moved {file_name} to {destination_file_path}", 0.2)
+                        print(f"Moved {file_name} to {destination_file_path}")
                         break
                 else:
                     print(f"Could not find a matching file type for {file_name}")
@@ -115,7 +115,7 @@ class FileOrganizer:
                 ext = os.path.splitext(file)[1]
                 new_file_name = f"{file_name} - {i+1}{ext}"
                 os.rename(file, os.path.join(self.folder_path, new_file_name))
-                print(f"{file} have been renamed successfully", 0.2)
+                print(f"{file} have been renamed successfully")
             except OSError:
                 print_with_delay("Invalid operation!", 2)
 
