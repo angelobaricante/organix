@@ -1,6 +1,8 @@
 import PySimpleGUI as sg
 import os
 
+os.environ['PYGAME_HIDE_SUPPORT_PROMPT'] = "hide"
+
 def get_folder_path():
     """
     Prompts the user to select a folder directory through a PySimpleGUI window.
