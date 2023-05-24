@@ -29,6 +29,9 @@
 * [Acknowledgements](#acknowledgements)
 * [Contact Information](#contact-information)
 
+## What is OrganiX?
+[![Manage Your Files Efficiently: A Comprehensive Guide to OrganiX](https://img.youtube.com/vi/G1o4cbKw-x8/default.jpg)](https://youtu.be/G1o4cbKw-x8)
+
 ## Why OrganiX
 OrganiX is a computer file organizer that uses voice commands to simplify the file organization process for computer users. With increasingly busy schedules and growing amounts of data, it can be difficult to keep track of and manage all the files on our devices. OrganiX aims to address this issue by providing a comprehensive and user-friendly solution that simplifies the file organization process and helps users maintain a clutter-free digital workspace.
 
