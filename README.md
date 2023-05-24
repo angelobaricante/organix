@@ -21,6 +21,7 @@
 ------
 
 ## Table of Contents
+* [What is OrganiX](#what-is-organix)
 * [Why OrganiX](#why-organix)
 * [How it Contributes to SDG](#how-it-contributes-to-sdg)
 * [Features](#features)
@@ -29,7 +30,8 @@
 * [Acknowledgements](#acknowledgements)
 * [Contact Information](#contact-information)
 
-## What is OrganiX?
+## What is OrganiX
+Click the image below to watch the video on YouTube:
 [![Manage Your Files Efficiently: A Comprehensive Guide to OrganiX](https://img.youtube.com/vi/G1o4cbKw-x8/maxresdefault.jpg)](https://www.youtube.com/watch?v=G1o4cbKw-x8)
 
 ## Why OrganiX
