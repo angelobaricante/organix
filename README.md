@@ -32,6 +32,7 @@
 
 ## What is OrganiX
 Click on the image below to watch the "Manage Your Files Efficiently: A Comprehensive Guide to OrganiX" video on YouTube. (Right click and select "Open link in new tab" to keep this page open):
+
 [![Manage Your Files Efficiently: A Comprehensive Guide to OrganiX](https://img.youtube.com/vi/G1o4cbKw-x8/maxresdefault.jpg)](https://www.youtube.com/watch?v=G1o4cbKw-x8)
 
 ## Why OrganiX
