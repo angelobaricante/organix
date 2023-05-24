@@ -24,8 +24,6 @@
 * [Why OrganiX](#why-organix)
 * [How it Contributes to SDG](#how-it-contributes-to-sdg)
 * [Features](#features)
-* [Installation and Setup](#installation-and-setup)
-* [Usage](#usage)
 * [License](#license)
 * [Authors](#authors)
 * [Acknowledgements](#acknowledgements)
@@ -74,12 +72,6 @@ OrganiX offers a range of powerful voice-activated features designed to enhance 
   
 4. __Change Folder Path__:arrows_counterclockwise: : Enables users to modify the folder path where operations will be conducted. With a simple voice command, users can easily dictate a new working directory for the OrganiX operations, providing increased flexibility and control over file organization tasks.
   
-## Installation and Setup 
-We are currently working on finalizing the OrganiX project. Once the project is complete, we will provide a comprehensive installation and setup guide to help users easily get started with OrganiX. Please stay tuned for updates!
-
-## Usage  
-We are in the process of completing the OrganiX project. Once the project is finalized, we will provide a detailed usage guide to help users effectively utilize OrganiX's features and capabilities. Please stay tuned for updates and thank you for your patience!
-
 ## License
 OrganiX is licensed under the MIT License. See the [LICENSE](https://github.com/angelobaricante/organix/blob/main/LICENSE) file for details.
   
