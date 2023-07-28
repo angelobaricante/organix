@@ -34,5 +34,6 @@ file_types = {
     "gis_files": [".shp", ".shx", ".dbf", ".prj", ".sbn", ".sbx", ".cpg", ".gpx", ".kml", ".kmz", ".geojson", ".gdb", ".tab", ".mapinfo", ".mif", ".mff", ".tif", ".tiff", ".tfw"],
     "disk_images": [".iso", ".img", ".vdi", ".vhd", ".vhdx", ".vmdk"],
     "compressed_files": [".lzh", ".lha", ".sit", ".sitx", ".sea", ".dmg", ".pkg", ".rpm", ".deb", ".arj", ".zoo", ".cpio", ".shar", ".rsrc"],
-    "virtualization_files": [".vmx", ".vbox", ".ovf", ".ova", ".vagrant", ".vagrantfile"]
+    "virtualization_files": [".vmx", ".vbox", ".ovf", ".ova", ".vagrant", ".vagrantfile"],
+    "metatrader_files": [".ex4", ".ex5", ".mql4", ".mql5", ".set"]
 }
